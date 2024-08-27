@@ -1,0 +1,26 @@
+{
+  "name": "codesandbox-dark-clone",
+  "publisher": "MarkElliott",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mark-Elliott5/codesandbox-dark-clone.git"
+  },
+  "displayName": "CodeSandbox Dark Clone",
+  "description": "CodeSandbox Dark theme.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CodeSandbox Dark Clone",
+        "uiTheme": "vs-dark",
+        "path": "./themes/CodeSandbox Dark clone-color-theme.json"
+      }
+    ]
+  }
+}
